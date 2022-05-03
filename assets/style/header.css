@@ -1,3 +1,10 @@
 header {
     height: 326px;
+    display: flex;
+    flex-direction: column;
+    background-color: violet;
+}
+
+nav {
+    background-color: greenyellow;
 }
