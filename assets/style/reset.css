@@ -5,3 +5,8 @@
     text-decoration: none;
     list-style-type: none;
 }
+html{
+    width: 1440px; 
+    height: auto;
+    overflow-x: hidden;
+}
