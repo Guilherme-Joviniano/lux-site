@@ -7,10 +7,14 @@
 }
 html{
     width: 1440px; 
-    height: auto;
+    min-height: 900px;
+    margin: 0 auto;
     overflow-x: hidden;
+    background: #FFF;
 }
 
 body {
-    width: 100vw;
+    width: 100%;
+    min-height: 900px;
+    height: auto;
 }
