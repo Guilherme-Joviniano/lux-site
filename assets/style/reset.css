@@ -1,3 +1,14 @@
+:root {
+    --cor1: #EFD9D5;
+    --cor2: #9F7866;
+    --cor3: #EEE0E3;
+    --cor4: #D7A29B;
+    --cor5: #F4C3BD;
+    --cor6: #B09896;
+    --cor7: #F5A2A2;
+    --cor8: #9A5071;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +16,7 @@
     text-decoration: none;
     list-style-type: none;
 }
+
 html{
     width: 1440px; 
     min-height: 900px;
