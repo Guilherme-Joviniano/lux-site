@@ -1,10 +1,24 @@
 header {
     height: 326px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: violet;
+}
+
+#logo-lux {
+    width: 425px;
 }
 
 nav {
     background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px;
+}
+
+ul {
+    display: flex;
 }

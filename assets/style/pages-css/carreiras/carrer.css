@@ -1,0 +1,224 @@
+@keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 0% 100%; }
+  } 
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: green;
+}
+
+.title {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.44)), url('../../../img/carreiras/tile-carreiras.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title h1 {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 128px;
+    padding: 0;
+}
+
+.navbar-carrers {
+    flex-direction: row;
+    width: 100%;
+    height: 161px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+input[type='text'] {
+    padding-left: 55px;
+    background-image: url('../../../img/carreiras/search-icon.svg');
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border: 3px solid #F5A2A2;
+    height: 69px;
+    width: 255px;
+    font-size: 32px;
+    transition: .2s all;
+}
+
+input:focus {
+    border-color: #9A5071;
+    outline: none;
+}
+
+select {
+    color: #000;
+    font-family: 'Bentham', serif;
+    font-size: 32px;
+    border-radius: 12px;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 20px;
+    padding-left: 80px;
+    background-image: url('../../../img/carreiras/arrow.png');
+    background-repeat: no-repeat;
+    background-position: 10%;
+    cursor: pointer;
+    width: 255px;
+    height: 69px;
+    border: none;
+    background-color: #F4C3BD;
+}
+
+select:focus {
+    outline: none;
+}
+
+.card-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    width: 333px;
+    height: 296px;
+}
+
+.card-title {
+    height: 35px;
+    width: min-content;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.card-title:after {
+    content: "";
+    display: block;
+    position: relative;
+    z-index: -1;
+    top: -15px;
+    width: auto;
+    height: 16px;
+    background: #F4C3BD;
+    border-radius: 16px 0px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    border: 2px solid #000;
+    border-radius: 12px;
+}
+
+.card .content h2,
+h3 {
+    font-family: 'Bentham';
+    font-size: 32px;
+}
+
+.btn-vaga {
+    transition: .5s all ease;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9A5071;
+    width: 194px;
+    height: 53px;
+    border-radius: 16px;
+}
+
+.btn-vaga span {
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #FFF;
+    font-size: 16px;
+}
+
+.btn-vaga:hover{
+    background-color: #5e3447;
+}
+.subtitle{
+
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 128px;
+    left: 10px;
+
+}
+.beneficios-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    height: auto;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    background: #F8F8F8;
+    border-radius: 0px 128px 128px 0px;
+}
+.beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 12px;
+    transition: 1s all ease-in-out;
+    transition: .5s all;
+    background-image: linear-gradient(0deg,#9A5071,#F4C3BD,#9A5071,#F4C3BD);
+    background-size: 400% 400%;
+    animation: animateBg 10s linear infinite;
+}   
+.description{
+    text-align: center;
+    font-family: "Bentham" ;
+    font-size: 32px;
+}
