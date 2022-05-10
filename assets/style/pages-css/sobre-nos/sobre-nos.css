@@ -1,19 +1,19 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+body{
+    
+    
 }
 
 header{
     width: 1440px;
     background-color: aquamarine;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
 
-main{
-
-}
-
-footer{
-
+p{
+    display: flex;
+    justify-content: center;
+    
 }
