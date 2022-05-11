@@ -1,0 +1,22 @@
+header {
+    height: 254px;
+    width: 800px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-img{
+    width: 550px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

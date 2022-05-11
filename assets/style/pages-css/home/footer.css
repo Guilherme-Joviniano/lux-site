@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    height: 226px;
+    background-color: #f8f8f8;
+    justify-content: space-between;
+    gap: 5px;
+}
+.logo-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    gap: 5px;
+}
+.logo-footer img{
+    height: 100px;
+    width: 300px;
+}
+footer ul{
+    display: flex;
+    gap: 80px;
+}
+.footer-itens{
+    color: #f5a2a2;
+    font-size: 50px;
+}

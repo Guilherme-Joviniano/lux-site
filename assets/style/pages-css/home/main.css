@@ -1,0 +1,44 @@
+main{
+    display: flex;
+    align-items: flex-start;
+    height: 500px;
+    width: 800px;
+    gap: 55px;
+    padding-left: 150px;
+}
+.colaborador{
+    background-color: white;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.titulo{
+    font-size: 50px;
+}
+p{
+    text-align: left;
+    font-size: 24px;
+}
+span{
+    font-weight: bold;
+}
+.botao{
+    width: 350px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 3px solid #f5a2a2;
+    border-radius: 12px;
+    background-color: white;
+    color: #f5a2a2;
+    cursor: pointer;
+    user-select: none;
+}
+.imagens{
+
+}
+

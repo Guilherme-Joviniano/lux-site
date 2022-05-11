@@ -1,19 +1,30 @@
 body{
-    
-    
-}
-
-header{
-    width: 1440px;
-    background-color: aquamarine;
-    align-items: flex-end;
     display: flex;
     flex-direction: column;
-    text-decoration: none;
+    height: 900vh;
+    flex-grow: 1;
 }
 
-p{
+
+
+footer{
     display: flex;
-    justify-content: center;
-    
+    width: 100%;
+    background-color: blue;
+    flex-direction: row;
+    text-decoration: none;  
+    align-items: center;
+    padding: 40px;
+    gap: 5000px;
+}
+
+footer ul{
+ gap: 80px;     
+ margin: 20px; 
+ margin-left: 100px;
+}
+
+.footer-desc{
+    display: flex;
+    text-align: end;
 }
