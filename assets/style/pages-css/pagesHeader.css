@@ -26,6 +26,7 @@ header nav {
 }
 
 ul {
+    margin-left: 200px;
     display: flex;
     gap: 60px;
     font-size: 4rem;
@@ -50,7 +51,10 @@ ul {
     border-radius: 16px;
     border: none;
 }
-
+#search:focus{
+    margin-right: 200px;
+    width: 200px;
+}
 #search:hover {
     border: none;
 }
@@ -73,4 +77,13 @@ ul {
 
 #search-icon i {
     font-size: 27px;
+}
+
+@media(max-width: 1326px){
+    ul{
+        margin-left: 20px;
+    }
+    .nav-items{
+        font-size: 4rem;
+    }
 }
