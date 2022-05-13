@@ -20,3 +20,15 @@ header {
     justify-content: center;
     align-items: center;
 }
+@media(max-width:768px){
+    header {
+        height: 100%;
+        width: 100%;
+        padding-left: 109px;
+        padding-right: 109px;
+    }
+    .logo-img{
+        width: 300px;
+        height: 100px;
+    }
+}

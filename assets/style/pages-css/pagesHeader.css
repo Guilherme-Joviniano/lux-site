@@ -50,6 +50,7 @@ ul {
     align-items: center;
     border-radius: 16px;
     border: none;
+    margin-right: 50px;
 }
 #search:focus{
     margin-right: 200px;
