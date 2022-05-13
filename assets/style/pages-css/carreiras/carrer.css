@@ -1,8 +1,4 @@
-header {
-    width: 100%;
-    height: 150px;
-    background-color: green;
-}
+
 
 .title {
     width: 100%;
@@ -162,7 +158,7 @@ h3 {
 }
 
 .btn-vaga span {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     color: #FFF;
     font-size: 16px;
@@ -208,12 +204,19 @@ h3 {
     border-radius: 12px;
     transition: 1s all ease-in-out;
     transition: .5s all;
-    background-image: linear-gradient(0deg,#9A5071,#F4C3BD,#9A5071,#F4C3BD);
-    background-size: 400% 400%;
-    animation: animateBg 10s linear infinite;
+    background-color: #F5A2A2;
 }   
 .description{
     text-align: center;
     font-family: "Bentham" ;
     font-size: 32px;
+}
+.trainAndDev{
+    width: 100%;
+    height: 700px;
+}
+.trainAndDev h2,h3{
+    font-family: "Bentham";
+    font-size: 32px;
+    text-align: center;
 }
