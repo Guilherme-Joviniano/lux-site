@@ -1,8 +1,3 @@
-@keyframes animateBg {
-    0% { background-position: 0% 0%; }
-    100% { background-position: 0% 100%; }
-  } 
-
 header {
     width: 100%;
     height: 150px;
@@ -149,7 +144,7 @@ select:focus {
 
 .card .content h2,
 h3 {
-    font-family: 'Bentham';
+    font-family: 'Bentham', serif ;
     font-size: 32px;
 }
 
@@ -162,7 +157,7 @@ h3 {
     justify-content: center;
     background-color: #9A5071;
     width: 194px;
-    height: 53px;
+    height: 60px;
     border-radius: 16px;
 }
 
