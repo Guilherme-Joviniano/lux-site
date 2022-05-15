@@ -8,4 +8,3 @@ btnsVagas.forEach(el =>{
 
 let vaga = localStorage.getItem('vaga');
 
-console.log(vaga);
