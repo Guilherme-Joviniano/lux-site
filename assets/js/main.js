@@ -2,12 +2,9 @@ const btnNav = document.querySelector(".menu-burguer-container")
 const navbar = document.querySelector('nav')
 const navbarCarreiras = document.querySelector('.navbar-carrers')
 
-console.log(btnNav, navbar, navbarCarreiras);
-
-
 
 btnNav.addEventListener("click", function () {
-    if (btnNav.id = "1") {
+    if (navbarCarreiras != null) {
         if (navbarCarreiras.style.display == "flex") {
             btnNav.classList.remove('close')
             navbarCarreiras.style.display = 'none'
