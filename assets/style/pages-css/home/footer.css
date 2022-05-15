@@ -50,6 +50,12 @@ footer ul{
 .navegacao-item a:hover{
     color: #f5a2a2;
 }
+.footer-itens a{
+    color: #f5a2a2;
+}
+.footer-itens a:hover{
+    color: #000;
+}
 @media(max-width:768px){
     footer{
         height: 190px;
