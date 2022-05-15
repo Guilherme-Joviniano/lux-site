@@ -25,7 +25,7 @@ a{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: auto;
+    min-height: 900px;
 }
 .titles{
     position: relative;
@@ -80,10 +80,24 @@ h2{
     height: 100px;
     background-color: #9A5071;
     border-radius: 12px;
-    
 }
 .btn-curriculo span{
     font-family: "Bentham", serif;
     color: #FFF;
     font-size: 32px;
+}
+
+
+@media (max-width: 768px){
+    .content{
+        width: 100%;
+        min-height: 1000px;
+        flex-direction: column;
+    }
+    .btn-curriculo{
+        left: 0%;
+    }
+    .lista-wrapper{
+        gap: 40px;
+    }
 }
