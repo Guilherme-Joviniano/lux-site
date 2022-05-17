@@ -31,7 +31,7 @@ Vagas.prototype.criarElemento = function () {
     });
 }
 
-const urlJson = `http://127.0.0.1:5501/assets/js/vagas/vagas.json`;
+const urlJson = `https://guilherme-joviniano.github.io/lux-site/assets/js/vagas/vagas.json`;
 
 let vagaID = localStorage.getItem("vaga")
 
