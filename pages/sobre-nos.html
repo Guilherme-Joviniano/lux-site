@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="PT">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/style/pages-css/pagesHeader.css">
-    <link rel="stylesheet" href="../assets/style/pages-css/sobre-nos/sobre-nos.css">
     <link rel="stylesheet" href="../assets/style/reset.css">
+    <link rel="stylesheet" href="../assets/style/pages-css/pagesHeader.css">
+    <link rel="stylesheet" href="../assets/style/pages-css/pagesFooter.css">
+    <link rel="stylesheet" href="../assets/style/pages-css/sobre-nos/sobre-nos.css">
     <script src="https://kit.fontawesome.com/d374dd1618.js" crossorigin="anonymous"></script>
     <title>Sobre Nós</title>
 </head>
+
 <body>
     <header>
         <a href="../index.html"><img src="../assets/img/global/logo-lux.png" alt="Logo Lux langerie" id="logo-lux"></a>
@@ -18,13 +21,13 @@
         <nav>
             <ul>
                 <li class="nav-items">
-                    <a href="#">Home</a>
+                    <a href="../index.html">Home</a>
                 </li>
                 <li class="nav-items">
-                    <a href="#">Sobre Nós</a>
+                    <a href="./sobre-nos.html" class="active">Sobre Nós</a>
                 </li>
                 <li class="nav-items">
-                    <a href="#" class="active">Carreiras</a>
+                    <a href="./carreiras.html">Carreiras</a>
                 </li>
             </ul>
             <div class="search">
@@ -34,16 +37,65 @@
         </nav>
     </header>
     <main>
-        <h1>Nossa História</h1>
+        <h1 class="title-year">2021</h1>
+        <div>
 
-        <p>A história da nossa marca começou em março de 2021, na Grande São Paulo, cidade de Itapevi.
+            <div class="content">
+                <div class="child">
+                    <h1>Nossa História</h1>
+                    <img src="../assets/img/sobre-nos/image 7.png" class="about-img">
+                </div>
+                <div class="text">
 
-            Um dia 4 amigas conversando chegaram na conclusão que não tinha uma marca que passasse confiança nas peças. E assim resolveram criar uma marca inovadora de boa qualidade e que trouxessem segurança para todos os tipos de corpos.
-            
-            Como não tinham condições para abrir uma empresa, então elas abriram uma conta no Instagram para divulgar as lingeries, e confeccionavam as peças em casa.
-            
-            Com o tempo elas começaram a receber muitas encomendas o negócio expandiu, e conseguiram abrir a empresa Lux Lingerie e se tornou o que é hoje, crescendo a cada dia mais</p>
+                    <p class="paragraph">
+                        A história da nossa marca começou em março de 2021, na Grande São Paulo, cidade de
+                        Itapevi.
+                    </p>
+                    <p class="paragraph">
+                        Um dia 4 amigas conversando chegaram na conclusão que não tinha uma marca que passasse confiança
+                        nas
+                        peças. E assim resolveram criar uma marca inovadora de boa qualidade e que trouxessem segurança
+                        para
+                        todos os tipos de corpos.
+                    </p>
+
+                    <p class="paragraph">
+                        Como não tinham condições para abrir uma empresa, então elas abriram uma conta no Instagram para
+                        divulgar as lingeries, e confeccionavam as peças em casa.
+                    </p>
+
+                    <p class="paragraph">
+                        Com o tempo elas começaram a receber muitas encomendas o negócio expandiu, e conseguiram abrir a
+                        empresa Lux Lingerie e se tornou o que é hoje, crescendo a cada dia mais
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    <section class="depoimentos">
+        <div class="cards-container">
+            <div class="depoimento-card">
+                <h1 class="nome-card">MARIA LUCIA</h1>
+                <h2 class="profissao-card"> Costureira </h2>
+                <p class="text-depoimento">"Estou aqui desde o começo, e posso dizer que a Lux me transformou muito profissionalmente e me fez
+                    ser a líder que sempr​e sonhei. É uma empresa justa e que nos auxilia a melhorar a cada dia". </p>
+            </div>
+            <div class="depoimento-card left">
+                <h1 class="nome-card">MARCOS</h1>
+                <h2 class="profissao-card"> Auxiliar Administrativo </h2>
+                <p class="text-depoimento">"Estou tendo uma excelente experiência nesta empresa, nos proporciona bons valores e um futuro promissor". </p>
+            </div>
+            <div class="depoimento-card">
+                <h1 class="nome-card">AMANDA</h1>
+                <h2 class="profissao-card"> Modelista </h2>
+                <p class="text-depoimento">"Aqui é um ambiente confortável e que estimula nossa criatividade. Temos boas confraternizações, e a Lux comemora cada conquista realizada.
+                    Pretendo aproveitar cada oportunidade e crescer junto com a empresa". </p>
+            </div>
+        </div>
+    </section>
     </main>
+
     <footer>
         <div class="social-media">
             <ul>
@@ -51,7 +103,8 @@
                     <i class="fa-brands fa-facebook"></i>
                 </li>
                 <li class="footer-itens">
-                    <a href="http://###"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://instagram.com/lux.lingerie.1?igshid=YmMyMTAM2Y="><i
+                            class="fa-brands fa-instagram"></i></a>
                 </li>
                 <li class="footer-itens">
                     <i class="fa-brands fa-twitter"></i>
@@ -62,13 +115,16 @@
             </ul>
         </div>
         <div class="info-text">
-            <span><h2>AJUDA</h2></span>
+            <p>
+            <h2>AJUDA</h2>
+            </p>
             <div class="links">
-                <span><a href="">Sobre-nós</a></span>
-                <span><a href="">Carreiras</a></span>
+                <p><a href="./sobre-nos.html">Sobre-nós</a></p>
+                <p><a href="./carreiras.html">Carreiras</a></p>
             </div>
         </div>
     </footer>
 </body>
 <script src="../assets/js/main.js"></script>
+
 </html>

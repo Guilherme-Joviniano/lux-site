@@ -1,6 +1,9 @@
 const btnNav = document.querySelector(".menu-burguer-container")
 const navbar = document.querySelector('nav')
 const navbarCarreiras = document.querySelector('.navbar-carrers')
+const btnCurriculo = document.querySelector(".btn-curriculo")
+
+
 
 
 btnNav.addEventListener("click", function () {
@@ -21,4 +24,10 @@ btnNav.addEventListener("click", function () {
             navbar.style.display = 'flex'
         }
     }
+})
+
+
+btnCurriculo.addEventListener('click', function(){
+    
+    window.location.href = "mailto:?subject=Subject&body=" + message;
 })

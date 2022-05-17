@@ -1,28 +1,225 @@
+
+
 body{
     display: flex;
     flex-direction: column;
-    height: 900vh;
+    height: fit-content;
     flex-grow: 1;
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
+.about-img {
+    width: 691px;
+}
+.title-year{
+    font-family: "Bentham", serif;
+    font-weight: bolder;
+    font-size: 64px;
+    text-align: center;
+    left: 45%;
+    margin-top: 136px;
+}
+.title-year::after{
+    display: block;
+    position: relative;
+    left: 45%;
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #9A5071;
+}
+.title-year::before{
+    display: block;
+    position: relative;
+    top: 90px;
+    left: 45%;
+    content: "";
+    width: 149px;
+    height: 2px;
+    background-color: #000;
+}
+.content{
+    width: 100vw;
+    display: flex;
+}
+.child{
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.child h1{
+    z-index: 99;
+    font-family: "Bentham", serif;
+    color: #9A5071;
+    font-size: 80px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.child h1:after{
+    z-index: -1;
+    content: "";
+    position: relative;
+    top: -30px ;
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: #F4C3BD;
+}
+.content .text{
+    display: flex;
+    flex-direction: column;
+    font-family: "Bentham",serif;
+    text-align: left;
+    align-self: start;
+    margin-left: 10%;
+    line-height: 48px;
+    font-size: 40px;
+    width: 100%;
+    height: fit-content;
+}
+.content .text .paragraph{
+    margin: 50px;
+}
+.content .text::after{
+    content: "";
+    display: block;
+    width: 900px;
+    height: 2px;
+    background-color: #000;
+}
+.content .text::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 520px;
+    width: 2px;
+    height: 127.5%;
+    background-color: #000;
+
+}
+
+.depoimentos{
+    transform: skewY(-2deg);
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    background-color: #F4C3BD;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.left{
+    align-self: flex-end;
+}
+
+.depoimento-card{
+    transform: skewY(2deg);
+    border: 2px solid var(--cor8) ;
+    padding: 60px;
+    width: 720px;
+    height: fit-content;
+    border-radius: 12px;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.nome-card{
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.nome-card::after {
+    z-index: -1;
+    content: "";
+    position: relative;
+    top: -25px ;
+    display: block;
+    width: 100%;
+    height: 20px;
+    border-radius: 100px 0px;
+    background-color: var(--cor8);
+}
+
+.profissao-card{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.text-depoimento{
+    font-size: 3rem;
+}
+
 
 footer{
-    display: flex;
+    z-index: 99;
+}
+@media(max-width: 1900px){
+.content .text::after{
+    display: none;
+}
+.content .text::before{
+    display: none;
+}
+    
+.title-year::before{
     width: 100%;
-    background-color: blue;
-    flex-direction: row;
-    text-decoration: none;  
-    align-items: center;
-    padding: 40px;
-    gap: 5000px;
+    left: 0;
 }
-
-footer ul{
- gap: 80px;     
- margin: 20px; 
- margin-left: 100px;
+.title-year::after{
+  left: 48%;   
 }
+}
+@media(max-width: 768px){
 
-.footer-desc{
-    display: flex;
-    text-align: end;
+.content{
+    flex-direction: column;
+}
+.content .child h1{
+    display: none;
+}
+.content .child img{
+    width: 100%;
+}
+.content .text{
+    margin-left: 0;
+}
+.content .text .paragraph{
+    margin: 20px;
+}
+.cards-container {
+    
+}
+.depoimento-card{
+    width: 80%;
+    padding: 10px;
+}
+.nome-card{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.nome-card::after {
+    height: 5px;
+    top: -7px ;
+}
+.profissao-card{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.text-depoimento{
+    font-size: 1.2rem;
+}
 }

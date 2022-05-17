@@ -139,6 +139,7 @@ select:focus {
 
 .card .content h2,
 h3 {
+    text-align: center;
     font-family: 'Bentham', serif ;
     font-size: 32px;
 }
@@ -270,7 +271,10 @@ h3 {
 }
 
 
-
+.image img{
+    width: 300px;
+    height: 300px;
+}
 @media (max-width: 768px){
     .trainAndDev h2{
         font-size: 3rem;
@@ -289,5 +293,18 @@ h3 {
     }
     .title{
         font-size: 2rem;
+    }
+}
+
+@media(max-width: 650px){
+    .title h1, .subtitle h2{
+        font-size: 90px;
+    }
+    .trainAndDev{
+        height: 100vh;
+    }
+    .card-curso-wrapper{
+        flex-direction: column;
+        gap: 50px;
     }
 }

@@ -48,13 +48,13 @@ footer ul{
     font-size: 1.2rem;
 }
 .navegacao-item a:hover{
-    color: #f5a2a2;
+    color: #9A5071;
 }
 .footer-itens a{
     color: #f5a2a2;
 }
 .footer-itens a:hover{
-    color: #000;
+    color: #9A5071;
 }
 @media(max-width:768px){
     footer{

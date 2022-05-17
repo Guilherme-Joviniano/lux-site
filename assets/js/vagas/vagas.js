@@ -35,23 +35,21 @@ const urlJson = `https://guilherme-joviniano.github.io/lux-site/assets/js/vagas/
 
 let vagaID = localStorage.getItem("vaga")
 
-fetch(urlJson)
-    .then(response => {
-        return response.json();
-    })
-    .then(data => carregarElementosNaPagina(data['Vagas'], vagaID));
+function carregarElementosNaPagina(data, vagaID) {
 
-
-function carregarElementosNaPagina(data, vagaID){
-    
     let requisitos = data[vagaID]['requisitos']
     let desafios = data[vagaID]['desafios']
     let area = data[vagaID]['area']
     let name = data[vagaID]['nomeDaVaga']
     const title = document.querySelector('title')
-    
-    title.innerHTML = `Vaga - ${name}`    
+
+    title.innerHTML = `Vaga - ${name}`
     new Vagas(requisitos, desafios, area, name)
-    
+
 }
 
+fetch(urlJson)
+    .then(response => {
+            return response.json();
+        })
+    .then(data => carregarElementosNaPagina(data['Vagas'], vagaID));

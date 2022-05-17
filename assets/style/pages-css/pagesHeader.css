@@ -130,7 +130,7 @@ input:focus {
     outline: none;
 }
 
-@media(max-width: 1326px){
+@media(max-width: 2000px){
     ul{
         margin-left: 20px;
     }
