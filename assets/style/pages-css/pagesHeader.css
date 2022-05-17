@@ -78,6 +78,57 @@ ul {
 #search-icon i {
     font-size: 27px;
 }
+.menu-burguer-container{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    margin-left: 100px;
+    z-index: 99;
+    display: none;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+.menu-burguer, .menu-burguer::before, .menu-burguer::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 40px;
+    background: #F5A2A2;
+    transition: .3s all ease-in-out;
+}
+.menu-burguer::before{
+    transform: translateY(-12px);
+}
+.menu-burguer::after{
+    transform: translateY(12px);
+}
+.close .menu-burguer::before{
+    transform: rotate(45deg);
+}
+.close .menu-burguer::after{
+    transform: rotate(-45deg);
+}
+.close .menu-burguer{
+    background-color: transparent;
+}
+input[type='text'] {
+    padding-left: 55px;
+    background-image: url('../../img/carreiras/search-icon.svg');
+    background-repeat: no-repeat;
+    background-position: 5%;
+    border: 3px solid #F5A2A2;
+    height: 69px;
+    width: 255px;
+    font-size: 32px;
+    transition: .2s all;
+}
+
+input:focus {
+    border-color: #9A5071;
+    outline: none;
+}
 
 @media(max-width: 1326px){
     ul{
@@ -85,5 +136,29 @@ ul {
     }
     .nav-items{
         font-size: 4rem;
+    }
+}
+
+
+@media(max-width: 768px){
+    .menu-burguer-container{
+        z-index: 99;
+        display: flex;
+    }
+    .search{
+        display: none;
+    }
+    header nav {
+        z-index: 98;
+        display: none;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        height: 100vh;
+    }
+    header nav ul {
+        align-items: center;
+        flex-direction: column;
     }
 }

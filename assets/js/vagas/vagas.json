@@ -1,0 +1,95 @@
+{
+    "Vagas": [
+        {
+            "area": "Textil",
+            "nomeDaVaga": "Costureira",
+            "requisitos": [
+                "Experiência na área da costura"
+            ],
+            "desafios": [
+                "* Modelar peças de lingerie",
+                "* Costurar peças de lingerie",
+                "* Realizar passíveis ajuste da peça e correções da modelagem"
+            ]
+        },
+        {
+            "area": "Marketing",
+            "nomeDaVaga": "Analista de Marketing",
+            "requisitos": [
+                "* Superior completo em marketing",
+                "* Pacote office 1",
+                "* Criatividade de desenvolver conteúdos",
+                "* Habilidade de comunicação"
+            ],
+            "desafios": [
+                "* Planejamento estratégico das rede sociais",
+                "* Acompanhar as redes sociais e o andamento",
+                "* Entrar em contato com as influencers",
+                "* Responsável com o envio de peças e aprovação de conteúdos",
+                "* Suporte no planejamento e execução das fotos das campanhas",
+                "* Apoio no planejamento, produção e execução de eventos"
+            ]
+        },
+        {
+            "area": "Moda",
+            "nomeDaVaga": "Modelista",
+            "requisitos": [
+                "- Superior Completo em Moda",
+                "- Domínio de programas como Corel Draw e Photoshop",
+                "* Criatividade de desenvolver conteúdos",
+                "Experiência na área da costura",
+                "-Domínio do Pacote Office (Word, Excel e Power Point)"
+            ],
+            "desafios": [
+                "- Conhecimento nos processos de criação e desenvolvimento de produto",
+                "- Contato com fornecedores de matéria prima",
+                "- Organização e controles de processos"
+            ]
+        },
+        {
+            "area": "Venda",
+            "nomeDaVaga": "Gerente de Vendas",
+            "requisitos": [
+                "Graduação completa em Gestão comercial",
+                "Experiência em varejo de moda"
+            ],
+            "desafios": [
+                "* Controlar as atividades da loja",
+                "* Gestão e controle de todas operação de vendas",
+                "* Determinar às necessidades de estoque",
+                "* Acompanhar os relatórios de recebimento de mercadoria e entrada de notas ficais"
+            ]
+        },
+        {
+            "area": "Jovem Aprendiz",
+            "nomeDaVaga": "",
+            "requisitos": [
+                "- Ter entre 16 a 20 anos",
+                "- Ensino médio completo ou cursando",
+                "- Curso de Gestão Comercial ou Administração"
+            ],
+            "desafios": [
+                "- Suporte nas tarefas Administrativas",
+                "- Controle de planilhas ",
+                "- Solicitar materiais em falta e manter o estoque",
+                "- Verificação da entrada e saída de correspondências"
+            ]
+        },
+        {
+            "area": "Adminstração",
+            "nomeDaVaga": "Auxiliar Administrativo",
+            "requisitos": [
+                "- Técnico em Gestão de Recursos Humanos",
+                "- Ter raciocínio logico e criatividade",
+                "- Lidar bem com pressão"
+            ],
+            "desafios": [
+                "- Envio, recebimento, organização e arquivamento de documentos",
+                "- Atendimento (e-mail ou telefone)",
+                "- Recepção ao público em geral",
+                "- Elaboração de agendas",
+                "- Suporte em serviços financeiros"
+            ]
+        }
+    ]
+}

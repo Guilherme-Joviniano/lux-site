@@ -238,6 +238,7 @@ h3 {
     align-items: center;
 }
 .card-curso{
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -247,7 +248,8 @@ h3 {
 }
 .card-curso img{
     width: 100%;
-    height: 50%
+    image-rendering: optimizeQuality;
+    height: 60%
 }
 .card-curso span h3{
     position: relative;
@@ -262,21 +264,28 @@ h3 {
     margin: 0 auto; 
     position: relative;
     bottom: 20px;
-    width: 80%;
+    width: 200px;
     height: 6px;
     background-color: #000;
 }
 
 
 
-
-
 @media (max-width: 768px){
-    header{
+    .trainAndDev h2{
+        font-size: 3rem;
+    }
+    header nav{
         display: none;
     }
     .navbar-carrers {
         display: none;
+        position: absolute;
+        width: 100vw;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        background-color: #FFF;
     }
     .title{
         font-size: 2rem;
