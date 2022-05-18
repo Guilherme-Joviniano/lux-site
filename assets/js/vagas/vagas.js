@@ -8,24 +8,26 @@ function Vagas(requisitos, desafios, area, name) {
 }
 
 Vagas.prototype.criarElemento = function () {
-    const area = document.querySelector(".area-atuacao")
+    const area = document.querySelector(".area-vaga")
     area.innerHTML = `<h1>${this.area}</h1>`
-    const name = document.querySelector(".vaga-name")
+    const name = document.querySelector(".name-vaga")
     name.innerHTML = `<h2>${this.name}</h2>`
 
-    const listaDesafios = document.querySelector(".desafios-lista")
-    const listaRequisitos = document.querySelector(".requisito-lista")
+    const listaDesafios = document.querySelector(".info-def")
+    const listaRequisitos = document.querySelector(".info-req")
+
+    console.log(listaDesafios, listaRequisitos, area, name);
 
     this.desafios.forEach(el => {
-        let child = document.createElement("li")
-        child.classList.add("item-desafio")
+        let child = document.createElement("div")
+        child.classList.add("item")
         child.innerHTML = el
         listaDesafios.append(child)
     });
 
     this.requisitos.forEach(el => {
         let child = document.createElement("li")
-        child.classList.add("item-requisitos")
+        child.classList.add("item")
         child.innerHTML = el
         listaRequisitos.append(child)
     });
