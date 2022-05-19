@@ -47,6 +47,8 @@ footer ul li a {
         justify-content: center;
         gap: 100px;
         height: 300px;
+        position: absolute;
+        top: 100% - 300px;
     }
     .info-text span h2{
         font-size: 3rem;
