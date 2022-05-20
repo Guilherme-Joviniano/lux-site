@@ -111,6 +111,7 @@ main{
     background-color: #F4C3BD;
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .cards-container {
